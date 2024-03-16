@@ -37,6 +37,22 @@ export const Secondary: Story = {
   },
 };
 
+export const Save: Story = {
+  args: {
+    primary: true,
+    label: 'Save',
+    backgroundColor: 'green',
+  },
+};
+
+export const Delete: Story = {
+  args: {
+    primary: true,
+    label: 'Delete',
+    backgroundColor: 'red',
+  },
+};
+
 export const Large: Story = {
   args: {
     size: 'large',
